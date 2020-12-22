@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
    }
  }
   Promise.all([
-    d3.csv("../data/cluster-movement-days/fri-hour-data.csv"),
-    d3.csv("../data/cluster-movement-days/sat-hour-data.csv"),
-d3.csv('../data/cluster-movement-days/sun-hour-data.csv')]).then(function (values) {
+    d3.csv("data/cluster-movement-days/fri-hour-data.csv"),
+    d3.csv("data/cluster-movement-days/sat-hour-data.csv"),
+d3.csv('data/cluster-movement-days/sun-hour-data.csv')]).then(function (values) {
     cluster_friday = values[0];
     cluster_sat = values[1];
     cluster_sun = values[2];
