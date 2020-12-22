@@ -82,18 +82,18 @@ document.addEventListener('DOMContentLoaded', function () {
     addInnovisLegend();
     // Load the processed data before doing anything else
     Promise.all([
-            d3.csv('../data/sorted_data/unique_checkin_per_region_overall.csv'), //0
-            d3.csv('../data/sorted_data/unique_checkin_per_region_fri.csv'), //1
-            d3.csv('../data/sorted_data/unique_checkin_per_region_sat.csv'), //2
-            d3.csv('../data/sorted_data/unique_checkin_per_region_sun.csv'), //3
-            d3.csv('../data/sorted_data/checkin_per_region_overall.csv'), //4
-            d3.csv('../data/sorted_data/checkin_per_region_fri.csv'), //5
-            d3.csv('../data/sorted_data/checkin_per_region_sat.csv'), //6
-            d3.csv('../data/sorted_data/checkin_per_region_sun.csv'), //7
-            d3.csv('../data/sorted_data/footfall_per_region_overall.csv'), //8
-            d3.csv('../data/sorted_data/footfall_per_region_fri.csv'), //9
-            d3.csv('../data/sorted_data/footfall_per_region_sat.csv'), //10
-            d3.csv('../data/sorted_data/footfall_per_region_sun.csv'), //11
+            d3.csv('data/sorted_data/unique_checkin_per_region_overall.csv'), //0
+            d3.csv('data/sorted_data/unique_checkin_per_region_fri.csv'), //1
+            d3.csv('data/sorted_data/unique_checkin_per_region_sat.csv'), //2
+            d3.csv('data/sorted_data/unique_checkin_per_region_sun.csv'), //3
+            d3.csv('data/sorted_data/checkin_per_region_overall.csv'), //4
+            d3.csv('data/sorted_data/checkin_per_region_fri.csv'), //5
+            d3.csv('data/sorted_data/checkin_per_region_sat.csv'), //6
+            d3.csv('data/sorted_data/checkin_per_region_sun.csv'), //7
+            d3.csv('data/sorted_data/footfall_per_region_overall.csv'), //8
+            d3.csv('data/sorted_data/footfall_per_region_fri.csv'), //9
+            d3.csv('data/sorted_data/footfall_per_region_sat.csv'), //10
+            d3.csv('data/sorted_data/footfall_per_region_sun.csv'), //11
                 ])
       .then(function (data) {
 
