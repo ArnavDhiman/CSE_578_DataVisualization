@@ -33,9 +33,9 @@ const flow_viz = () => {
     flow_innerHeight = flow_height - flow_margins.top - flow_margins.bottom;
     flow_innerWidth = flow_width - flow_margins.left - flow_margins.right;
     Promise.all([
-        d3.csv('../data/traffic_per_day/park-movement-Fri-Traffic.csv'),
-        d3.csv('../data/traffic_per_day/park-movement-Sat-Traffic.csv'),
-        d3.csv('../data/traffic_per_day/park-movement-Sun-Traffic.csv')
+        d3.csv('data/traffic_per_day/park-movement-Fri-Traffic.csv'),
+        d3.csv('data/traffic_per_day/park-movement-Sat-Traffic.csv'),
+        d3.csv('data/traffic_per_day/park-movement-Sun-Traffic.csv')
     ]).then((values) => {
         flow_data['Friday'] = values[0];
         flow_data['Saturday'] = values[1];
