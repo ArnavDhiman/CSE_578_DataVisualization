@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     lineInnerWidthDistPlot = lineWidthDistPlot - lineMarginDistPlot.left - lineMarginDistPlot.right;
     lineInnerHeightDistPlot = lineHeightDistPlot - lineMarginDistPlot.top - lineMarginDistPlot.bottom;
   
-    Promise.all([d3.csv('../data/distance-plot/friday.csv'),
-				 d3.csv('../data/distance-plot/saturday.csv'),
-				 d3.csv('../data/distance-plot/sunday.csv')
+    Promise.all([d3.csv('data/distance-plot/friday.csv'),
+				 d3.csv('data/distance-plot/saturday.csv'),
+				 d3.csv('data/distance-plot/sunday.csv')
 				])
                   .then(function(data){
                   fridayData = data[0];
