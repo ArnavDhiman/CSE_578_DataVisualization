@@ -1,0 +1,90 @@
+/* This adds the image in the background of the flow_div */
+.viz-div.flow-viz-div {
+    height: 829px;
+    min-width: 744px;
+}
+#flow_div{    
+    width: 700px;
+    height: 760px;
+    position: absolute;
+    margin-top: -3px;
+    z-index: 1;
+    margin-left: -700px;
+}
+.flow-viz-div{
+    padding: 1em;
+}
+
+/* Year Slider */
+.flow_slider{
+    cursor: col-resize;
+}
+#flow_play{    
+    margin-top: 706px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -700px;
+
+}  
+.flow_ticks {
+    font-size: 10px;
+}
+
+.flow_track,
+.flow_track-inset,
+.flow_track-overlay {
+    stroke-linecap: round;
+}
+
+.flow_track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 5px;
+}
+
+.flow_track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.flow_track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: col-resize;
+}
+
+.flow_handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+}
+.flow-viz-header{
+    margin: -17px -17px 9px -17px;
+}
+#flow_days{
+    width: 30%;
+    margin-left: 3em;
+    margin-top: -35px;
+    font-size: x-large;
+    border: 1px solid;
+}
+/* .flow_xAxisLegend line, 
+.flow_xAxisLegend path,
+.flow_xAxisLegend text { 
+    stroke: #fff;  
+} */
+.flow_parkImage{
+    filter: grayscale(1) opacity(43%)
+}
+.flow-form{
+    position: absolute;
+    width: 100%;
+    margin-top: 36px;
+    z-index: 1000;
+    margin-left: -47px;
+}
+.flow_axis .tick {
+    color: white;
+}

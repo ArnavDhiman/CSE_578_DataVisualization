@@ -1,0 +1,22 @@
+#distance_plot {
+    border:1px solid gray;
+    border-radius:10px;
+    height:600px;
+    width:800px;
+    margin:5px;
+}
+
+
+.axis {
+    color: gray;
+}
+.label {
+    fill: gray;
+    font-weight: bold;
+}
+
+#clusterId{
+    width: 300px;
+    margin-left: 3em;
+    margin-top: 10px;
+}

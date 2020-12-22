@@ -1,0 +1,36 @@
+#alluvis {
+  height: 720px;
+  width: 1280px;
+  margin:5px;
+}
+#selectvis {
+  height: 720px;
+  width: 1280px;
+  margin:5px;
+}
+
+.all_axis {
+  font-size: 12px;
+  color: gray;
+  stroke-width: 1px;
+  stroke: gray;
+}
+.all_axislabel {
+  font-size: 18px;
+  font-weight: 700; /*Bold Typed*/
+  text-anchor: middle;
+  vertical-align: middle;
+  fill: gray;
+}
+.all_circle {
+  fill: white;
+  stroke-width: 4px;
+}
+.all_line {
+  stroke: black;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+.alluvis-div{
+  min-width: 1255px;
+}

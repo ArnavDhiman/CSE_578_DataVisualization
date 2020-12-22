@@ -1,0 +1,82 @@
+
+/* For filter open / close */
+.filter-header-open{
+    width: 200px;
+    transition: margin 700ms;
+}
+.filter-header-close{
+    transition: margin 700ms;
+    width: 250px;
+}
+.content-body-menu-open{
+    margin-left: 200px;
+    transition: margin 700ms;
+}
+.content-body-menu-close{
+    margin-left: 0px;
+    transition: margin 700ms;
+}
+.filter-open{
+    margin-left: 0px;
+    transition: margin 700ms;
+}   
+.filter-close{
+    margin-left: -250px;
+    transition: margin 700ms;
+
+}
+.filter-group{
+    padding: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.form-check-label{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.form-check-input{
+    margin-right: 10px !important;
+}
+.chekbox-group-label{
+    font-size: 20px;
+}
+label{
+    font-weight: normal;
+}
+.filter{
+    min-width: 150px;
+    min-height: 100px;
+    position: fixed;
+    width: 200px;
+}
+
+.filter-header{
+    font-size: 2em;    
+    background: gray;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    opacity: 0.8;
+
+}
+.filter-header:hover,.filter-header:focus{
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+}
+.filter-body{
+    border: 1px solid gray;
+    min-height: 100px;
+    padding: 10px;
+}
+.fa-bars{
+    float: right;
+    margin-top: 5px;
+}
+.filter-header-text{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}

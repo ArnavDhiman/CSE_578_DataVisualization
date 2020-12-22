@@ -1,0 +1,92 @@
+/* This adds the image in the background of the flow_div */
+.viz-div.cluster-movement-div {
+    height: 850px;
+    min-width: 744px;
+}
+#cluster_div{    
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    margin-top: -3px;
+    z-index: 1;
+    margin-left: -700px;
+}
+.cluster-movement-div{
+    padding: 1em;
+}
+
+/* Year Slider */
+.cluster_slider{
+    cursor: col-resize;
+}
+#cluster_play{    
+    margin-top: 732px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -700px;
+
+}  
+.cluster_ticks {
+    font-size: 10px;
+}
+.currentCluster{
+    stroke-width: 5px;
+    }
+.cluster_track,
+.cluster_track-inset,
+.cluster_track-overlay {
+    stroke-linecap: round;
+}
+
+.cluster_track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 5px;
+}
+
+.cluster_track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.cluster_track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: col-resize;
+}
+
+.cluster_handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+}
+
+/* .flow_axis{
+
+}
+.flow_label{
+
+} */
+
+#cluster_days{
+    width: 30%;
+    margin-left: 3em;
+    margin-top: -35px;
+}
+/* .flow_xAxisLegend line, 
+.flow_xAxisLegend path,
+.flow_xAxisLegend text { 
+    stroke: #fff;  
+} */
+.cluster_parkImage{
+    filter: grayscale(1) opacity(25%)
+}
+.cluster-form{
+    position: absolute;
+    width: 650px;
+    margin-top: 13px;
+    z-index: 1000;
+    margin-left: 6px;
+}
